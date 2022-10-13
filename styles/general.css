@@ -1,0 +1,38 @@
+p 
+{
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+body
+{
+  position: absolute;
+  margin: 0;
+  background-color: rgb(24, 24, 24);
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  
+}
+
+::-webkit-scrollbar
+{
+  width: 8px;
+  height: 250px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: none;
+  border-radius: 100px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgb(110, 110, 110);
+  border-radius: 100px;
+}
